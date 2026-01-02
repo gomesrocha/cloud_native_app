@@ -32,6 +32,14 @@ docker compose version
 docker run --rm hello-world
 ```
 
+### 1.3 Imagens
+
+Visualizando imagens disponíveis localmente
+
+```bash
+docker images
+```
+
 ---
 
 ## 2. Conceitos Essenciais
@@ -53,7 +61,16 @@ docker logs web
 docker exec -it web sh
 ```
 
+## 3.1 Opções do docker
+
+Opções:
+* -i: mantem o STDIN aberto, mesmo que não conecte ao container
+* -t: disponibiliza um TTY (console) do container
+* -d: modo daemon ou seja, sem interatividade, roda em background como um serviço
+
+
 ---
+
 
 ## 4. Laboratório 2 — Volumes
 
